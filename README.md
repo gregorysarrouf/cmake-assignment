@@ -22,25 +22,4 @@ bin directory, then run:
 ./pointcloud_processor ../data/data.ply ../data/output.ply
 ```
 
-The output will be stored inside of the output.ply file,
-and the final directory structure should be as follows:
-
-PointCloud_Processor
-├── bin
-│   └── pointcloud_processor
-├── build
-│   └── (build data)
-├── CMakeLists.txt
-├── data
-│   ├── data.ply
-│   └── output.ply
-├── include
-│   ├── filtering.h
-│   ├── io.h
-│   └── transformation.h
-├── README.md
-└── src
-    ├── filtering.cpp
-    ├── io.cpp
-    ├── main.cpp
-    └── transformation.cpp
+The output will be stored inside of the output.ply file.
